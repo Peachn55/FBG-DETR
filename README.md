@@ -1,2 +1,5 @@
 # FBG-DETR
 This work proposes an end-to-end detection framework dedicated to micro-inductor surface defect detection.
+FGB-DETR is a end-to-end object detector built on the RT-DETR baseline and improved for industrial surface defect detection. To address the large scale variation among defect targets, subtle inter-class differences, and strong background texture interference, this work introduces improved designs at both the feature extraction stem of the backbone and the multi-scale feature outputs, thereby improving the detection of small and low-contrast defects while keeping the detector end-to-end and NMS-free. 
+
+As the related work is currently under submission/under review, the key datasets used in this work and the source code are not publicly released. To demonstrate the reliability of this work, we validate it on public datasets and release in advance the trained models and the corresponding weights of FGB-DETR and the compared methods on those public datasets.
